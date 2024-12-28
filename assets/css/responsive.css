@@ -3828,14 +3828,14 @@ h3.blog-title-two a {
     margin: 0;
 }
 
-.address-box, .address-box2 {
+/* .address-box, .address-box2 {
     display: block;
     align-items: center;
 }
 
 .address-icon {
     margin-bottom:20px;
-}
+} */
 
 .address-box2 {
     margin-top: 20px;
