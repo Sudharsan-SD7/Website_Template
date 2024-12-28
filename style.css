@@ -96,7 +96,7 @@ nav.solutek_menu {
 
 .solutek_menu > ul > li > a {
   display: block;
-  margin: 23px 21px 23px;
+  margin: 13px 11px 13px;
   -webkit-transition: 0.5s;
   text-decoration: none;
   font-size: 16px;
@@ -310,6 +310,11 @@ nav.solutek_menu span {
   width: 84%;
 }
 
+/* blog icons index page */
+
+.far fa-user {
+color: #7dc243;
+}
 /*=====================================
 <-- 02.start solutek hero Area Css -->
 =======================================*/
@@ -321,6 +326,16 @@ nav.solutek_menu span {
   background-position: center;
   background-size: cover;
   margin: -78px 50px 0;
+}
+.hero-area {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .hero-thumb img {
+      width: 100%; 
+  }
 }
 
 .hero-contant h5 {
@@ -429,7 +444,7 @@ nav.solutek_menu span {
   text-align: right;
   margin-top: 118px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .hero-thumb::before {
@@ -970,7 +985,7 @@ h1.section-main-title2 {
 =======================================*/
 
 .blog-area {
-  padding: 120px 0 89px;
+  padding: 60px 0 60px;
   background: #f4f4f4;
 }
 
@@ -1186,9 +1201,10 @@ h3.blog-title-two a:hover {
 =======================================*/
 
 .about-area {
-  padding: 0 0 120px;
+  padding: 0 0 0px;
   position: relative;
   z-index: 1;
+  margin-top: 90px;
 }
 
 .about-area::before {
@@ -1271,7 +1287,7 @@ h4.about-title {
   display: inline-block;
   background: #7dc243;
   text-decoration: none;
-  padding: 16px 28px;
+  padding: 10px 16px;
   font-size: 15px;
   text-transform: uppercase;
   color: #ffffff;
@@ -1386,7 +1402,7 @@ h4.about-title {
 .service-single-box {
   background: #ffff;
   border-radius: 15px;
-  padding: 45px 35px 42px;
+  padding: 35px 25px 32px;
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
@@ -1408,9 +1424,9 @@ h4.about-title {
   transition: 0.4s;
 }
 
-.service-icon {
+/* .service-icon {
   margin-bottom: 33px;
-}
+} */
 
 .service-icon img {
   filter: brightness(1) invert(0);
@@ -1517,7 +1533,7 @@ p.service-text {
 =======================================*/
 
 .project-area {
-  padding: 120px 0 88px;
+  padding: 60px 0 88px;
   background: url(assets/images/project-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1834,7 +1850,7 @@ ul.pricing-list li i {
 
 .faq-area {
   background: #f4f4f4;
-  padding: 120px 0 120px;
+  padding: 30px;
   position: relative;
   z-index: 1;
 }
@@ -1869,7 +1885,7 @@ h3.faq-title span {
 }
 
 p.faq-description {
-  padding: 10px 0 29px;
+  padding: 10px 0px;
 }
 
 .tab_container {
@@ -2034,7 +2050,7 @@ a.active {
   background-position: center;
   background-size: cover;
   margin: 0 50px 0;
-  padding: 120px 0 120px;
+  padding: 60px 0 60px;
 }
 
 .testi-single-box {
@@ -2585,7 +2601,7 @@ ul.testi-rating li {
   display: inline-block;
   background: #050a1e;
   text-decoration: none;
-  padding: 16px 28px;
+  padding: 10px 16px;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -2624,7 +2640,7 @@ ul.testi-rating li {
 }
 
 .row.footer {
-  padding: 118px 0 101px;
+  padding: 60px 0 60px;
 }
 
 p.footer-widget-text {
@@ -3336,7 +3352,7 @@ ul.list-style-one li a:hover {
 <!-- Start solutek service Area style two  -->
 <!-- =====================================-->*/
 .service-area.style-two {
-  padding: 120px 0 125px;
+  padding: 60px;
 }
 
 .service-area.style-two .section-title.text-center {
@@ -3349,7 +3365,7 @@ ul.list-style-one li a:hover {
   background-size: cover;
   background-position: center center;
   border-radius: 35px 0 35px 35px;
-  padding: 32px 20px 56px;
+  padding: 32px 14px 76px;
   text-align: center;
   position: relative;
   transition: 0.5s;
@@ -5117,7 +5133,7 @@ ul.list-style-one li a:hover {
 =========================================================---*/
 .breadcumb-area {
   background: url(assets/images/inner/breadcumb-bg.png);
-  padding: 230px 0 170px;
+  padding: 160px 0 130px;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -5126,7 +5142,7 @@ ul.list-style-one li a:hover {
 
 
 .breadcumb-area.about {
-  padding: 230px 0 180px;
+  padding: 120px 0 150px;
 }
 
 .breadcumb-content {
@@ -5134,12 +5150,13 @@ ul.list-style-one li a:hover {
 }
 
 .breadcumb-content h4 {
-  font-size: 55px;
+  font-size: 51px;
   line-height: 26px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Fira Sans";
+  line-height: 1.5;
 }
 
 ul.breadcumb-list {
@@ -5183,7 +5200,7 @@ li.list-arrow {
 /* <!--==================================================--> */
 .about-us-area {
   background: #fff;
-  padding: 144px 0 95px;
+  padding: 60px 0 60px;
   position: relative;
 }
 
@@ -5334,7 +5351,7 @@ li.list-arrow {
   <!-- start solutek project Area style-two -->
 =========================================================---*/
 .project-area.style-two {
-  padding: 130px 0 88px;
+  padding: 60px 0 60px;
   background: url(assets/images/inner/project-bg-3.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -5897,7 +5914,7 @@ li.list-arrow {
  <!-- Start solutek services details area css-->
 =========================================================---*/
 .services-details-area {
-  padding: 122px 0 121px;
+  padding: 60px 0 60px;
   background-color: #f4f4f4;
 }
 
@@ -5972,7 +5989,7 @@ p.services-details-desc {
 
 .services-details-area .tab_container {
   position: relative;
-  margin-top: 95px;
+  margin-top: 0px;
 }
 
 .services-details-area .accordion li a {
@@ -6464,7 +6481,7 @@ li.current_menu_item {
 <!--start solutek project details area css -->
 =========================================================---*/
 .project-details-area {
-  padding: 123px 0 93px;
+  padding: 60px 0 60px;
   background: #f4f4f4;
 }
 
@@ -6550,7 +6567,7 @@ a.project-details-text {
 }
 
 .widget-sidber-contact-btn a {
-  padding: 16px 70px 15px;
+  padding: 5px 20px 5px;
 }
 
 /*---=====================================================
@@ -7844,5 +7861,12 @@ p.blog-details-desc.three {
   100% {
     -webkit-transform: translateX(-50px);
     transform: translateX(-50px);
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .hero-area {
+      height: 625px;
+      margin: -100px 30px 0 !important;
   }
 }
