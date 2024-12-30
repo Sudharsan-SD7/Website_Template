@@ -160,3 +160,25 @@
     $.scrollUp = $.fn.scrollUp;
 
 })(jQuery, window, document);
+
+
+
+$(document).ready(function () {
+    $('<div/>', {
+        class: 'go-top',
+        html: '<i class="fas fa-arrow-up"></i>',
+    }).appendTo('.scroll-area');
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.go-top').addClass('active');
+        } else {
+            $('.go-top').removeClass('active');
+        }
+    });
+
+    $('.scroll-area').on('click', '.go-top', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 500);
+    });
+});
