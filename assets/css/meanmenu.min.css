@@ -1,15 +1,15 @@
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-  background: #7dc243;
+  background: #fff;
   float: left;
   min-height: 60px;
-  padding: 4px 0 0;
+  padding: 0 0;
   position: relative;
   width: 100%;
   z-index: 999;
   text-transform: capitalize;
 }
-.mean-container a.meanmenu-reveal{width:22px;height:22px;padding:18px;top:0;right:0;cursor:pointer;color:#fff;text-decoration:none;font-size:16px;text-indent:-9999em;line-height:22px;font-size:1px;display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;float: right;}
+.mean-container a.meanmenu-reveal{width:22px;height:22px;padding:32px;top:0;right:0;cursor:pointer;color:#fff;text-decoration:none;font-size:16px;text-indent:-9999em;line-height:22px;font-size:1px;display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;float: right;}
 .mean-container a.meanmenu-reveal span{display:block;background:#fff;height:3px;margin-top:3px}
 .mean-container .mean-nav{float:left;width:100%;background:#0c1923}
 .mean-container .mean-nav ul{padding:0;margin:0;width:100%;list-style-type:none}
@@ -99,10 +99,10 @@ a.meanmenu-reveal{display:none}
 	border-radius: 0;
 }
 .mean-container a.meanmenu-reveal span {
-  background: #fff;
+  background: #000000;
 }
 .mobile-menu-area {
-  background: #fff none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
   }
 .mean-container .mean-nav ul li a.mean-expand {
   background: none;
@@ -113,23 +113,39 @@ a.meanmenu-reveal{display:none}
 }
 .mean-container .mean-nav ul li {
   background: #444;
+  margin: 0px;
 }
 .mean-container a.meanmenu-reveal {
-  color: #fff;
+  color: #000000;
 }
 .meanmenu-reveal.meanclose:hover {
-  color: #fff !important;
+  color: #000000 
 }
 .mean-container a.meanmenu-reveal:hover span {
-  background: #fff;
+  background: #000000;
 }
-.mean-container .mean-bar::before {
-	color: #fff;
+/* .mean-container .mean-bar::before {
+	color: #000000;
 	content: "VIBHATHI LABS";
 	font-size: 28px;
 	font-weight: 600;
 	left: 10px;
 	position: absolute;
 	top: 17px;
+} */
+
+.mean-container .mean-bar::before {
+  content: "";
+  display: block;
+  width: 168px;
+  height: 100px;
+  /* background: url(assets/images/logo1.png) no-repeat center center !important; */
+  background-size: contain;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  background-color: transparent; /* Ensure background is transparent */
 }
+
+
 
