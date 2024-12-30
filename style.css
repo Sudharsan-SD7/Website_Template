@@ -1,48 +1,4 @@
-/*===============================================
-Template Name: Solutek - Technology & IT Solution HTML5 Template
-Author:  https://themeforest.net/user/themeservices
-Description: Description
-Version: 1.0.0
-Text Domain: Solutek
-Tags:     agency, business, consulting, corporate, cyber security, finance, it agency, it services, it solutions, multipurpose, software company, startup, technology, technology company.
-================================================*/
 
-/*TABLE OF CONTENTS*/
-/*=====================
-01. solutek Nav Menu Area Css
-02. solutek hero Area Css
-03. solutek feature Area Css
-04. solutek section-title Area Css
-05. solutek contact Area Css
-06. solutek blog Area Css 
-07. solutek about Area Css
-08. solutek service Area Css
-09. solutek project Area Css
-10. solutek brand Area Css
-11. solutek pricing Area Css
-12. solutek faq-area Css
-13. solutek testimonial-area Css
-14. solutek address-area Css
-15. solutek footer-area Css
-17. solutek copyright css
-18. solutek Home two Css
-19. solutek home page 03 css
-20. solutek marquee section css
-21. solutek team Area css
-22. solutek Breadcumb Area Css
-23. solutek about us Area css
-24. solutek Team Details Area css
-25. solutek skill bar css
-26. solutek services details area css
-27. solutek case study area css
-28. solutek project details area css
-29. solutek blog details css
-
-=======================*/
-
-/*=====================================
-<-- 01. solutek Nav Menu Area Css -->
-=======================================*/
 
 .solutek_nav_manu {
   padding: 35px 39px 0;
@@ -7099,8 +7055,8 @@ p.blog-details-desc.three {
   top: 0;
   right: 30px;
   color: #ffffff;
-  background-image: -moz-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
-  background-image: -webkit-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+  /* background-image: -moz-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+  background-image: -webkit-linear-gradient(0deg, #d1651a 0%, #c1282a 100%); */
   z-index: 9999;
   width: 45px;
   text-align: center;
@@ -7873,4 +7829,114 @@ p.blog-details-desc.three {
   }
 }
 
+.mean-container .mean-bar::before {
+  content: "";
+  display: block;
+  background: url(assets/images/mobilemenulogo.png)!important;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  background-color: transparent; /* Ensure background is transparent */
+}
 
+/* Initially hide the menu in mobile view */
+
+
+/* Circular Button Style */
+.btn-circle {
+  display: inline-block;
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  border-radius: 50%; /* Makes it circular */
+  background-color: #e50914; /* Red color, change as needed */
+  color: #fff;
+  text-align: center;
+  line-height: 50px; /* Vertically center the text */
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.btn-circle:hover {
+  background-color: #444444; /* Darken on hover */
+}
+
+/* Button Styling */
+.btn-navbar {
+      display: grid;
+      padding: 10px 20px;
+      background-color: #7dc243;
+      color: beige;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      width: fit-content;
+      /* justify-content: initial; */
+      /* left: 31%; */
+      position: relative;
+      justify-self: center;
+      margin-bottom: 7px;
+  
+}
+
+/* Button Hover Effect */
+.btn-navbar:hover {
+  background-color: #444444; /* Darken on hover */
+}
+
+li.mean-last {
+  margin-bottom: 11px;
+}
+
+/* Style for the mobile logo navigation */
+.mobile-logo-link {
+  display: block;
+  width: 120px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  position: relative;
+  margin: 10px auto; /* Center within the menu */
+}
+
+.mean-bar {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url('assets/images/mobilemenulogo.png') no-repeat center center;
+  background-size: contain;
+  position: relative;
+}
+
+/* Styling for the button */
+.btn-navbar {
+  display: inline-block;
+  background-color: #007bff;
+  color: beige;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-navbar:hover {
+  background-color: #0056b3;
+}
+
+li.nav-btn.mean-last {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.btn-success-service {
+  color: #fff;
+  background-color: #7dc243;
+  border-color: #7dc243;
+  border-radius: 8px;
+}
